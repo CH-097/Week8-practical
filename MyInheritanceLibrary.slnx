@@ -2,4 +2,5 @@
   <Project Path="AnimalLists/AnimalLists.csproj" />
   <Project Path="AnimalTests/AnimalTests.csproj" />
   <Project Path="MyInheritanceLibrary/MyInheritanceLibrary.csproj" />
+  <Project Path="ShapeLibrary/ShapeLibrary.csproj" />
 </Solution>
