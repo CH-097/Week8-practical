@@ -4,7 +4,20 @@ using System.Text;
 
 namespace MyInheritanceLibrary
 {
-    internal class Cat
+    internal class Cat : Animal
     {
+        public Cat() : base()
+        {
+
+        }
+
+        public Cat(string name, int age, int legs) : base(name, age, legs)
+        {
+        }
+
+        public override void Speak()
+        {
+            Console.WriteLine("Meaow");
+        }
     }
 }

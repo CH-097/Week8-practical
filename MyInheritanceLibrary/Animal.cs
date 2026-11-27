@@ -48,7 +48,7 @@
 
 
         //method to display 'Hello'
-        public virtual void Speak()    //'virtual' keyowrd means can be overwrite
+        public virtual void Speak()    //'virtual' keyowrd means can be override
         {
             Console.WriteLine("Hello");
         }
