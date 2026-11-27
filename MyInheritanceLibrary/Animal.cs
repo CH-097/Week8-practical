@@ -27,7 +27,17 @@
 
 
 
-        //constructor method
+        public Animal()
+        {
+            name = "";
+            age = 0;
+            legs = 0;
+        }
+
+
+
+
+        //methods
         public Animal(string name, int age, int legs)
         {
             this.Name = name;
@@ -38,7 +48,7 @@
 
 
         //method to display 'Hello'
-        public virtual void Speak()    //'virtual' keyowrd means can be overwritten
+        public virtual void Speak()    //'virtual' keyowrd means can be overwrite
         {
             Console.WriteLine("Hello");
         }
