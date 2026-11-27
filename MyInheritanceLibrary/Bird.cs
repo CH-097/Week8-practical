@@ -10,7 +10,7 @@ using System.Text;
 
 namespace MyInheritanceLibrary
 {
-    internal class Bird : Animal
+    public class Bird : Animal
     {
         private double wingspan;
 
