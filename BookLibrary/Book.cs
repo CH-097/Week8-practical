@@ -17,7 +17,7 @@
 
         public void Print()
         {
-            Console.WriteLine($"Author: {author}, Name: {name}, ISBN: {ISBN}");
+            Console.WriteLine($"Book details:\nAuthor: {author}, Name: {name}, ISBN: {ISBN}");
         }
     }
 }

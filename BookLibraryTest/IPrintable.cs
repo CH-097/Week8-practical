@@ -4,7 +4,8 @@ using System.Text;
 
 namespace BookLibrary
 {
-    internal class Class2
+    internal interface IPrintable
     {
+        void Print();
     }
 }
