@@ -31,9 +31,9 @@ namespace MyInheritanceLibrary
             this.Wingspan = wingspan;
         }
 
-        public override void Speak()
+        public override string Speak()
         {
-            Console.WriteLine("Chirp");
+            return "Chirp";
         }
     }
 }

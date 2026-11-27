@@ -15,9 +15,9 @@ namespace MyInheritanceLibrary
         {
         }
 
-        public override void Speak()
+        public override string Speak()
         {
-            Console.WriteLine("Meaow");
+            return "Meaow";
         }
     }
 }
